@@ -63,7 +63,7 @@ body {
 #menu p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    margin: 14px;
+    margin-top: 10px;
     color:rgb(79, 76, 76);
    
 }
@@ -76,6 +76,11 @@ body {
     color: white;
 }
 
+#about {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
 
-
-
+.About-images {
+    margin: 30px;
+}
