@@ -1,26 +1,31 @@
 .image-container {
-    position:relative; 
-    width:1600px100%;
+    position: relative; 
+    width: 100%;
     margin: 0 auto;
 }
+
 .image-container img {
-width: 100%;
-height: auto;
-margin: 0 auto;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
 }
+
 .Navigator {
-    position:absolute;
-    top:40%;
-    left:15%;
-    color:white;
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    color: white;
     font-size: 30px;
 }
+
 h1 {
-    position:absolute;
-    top:20%;
-    left:10%;
+    position: absolute;
+    top: 20%;
+    left: 10%;
     color: white;
     font-size: 60px;
+    font-family: "Inter", sans-serif;
+    padding: 5px;
 }
 
 h2 {
@@ -28,6 +33,7 @@ h2 {
     font-size: 30px;
     margin: 12px;
     color:#444;
+    padding: 5px;
 }
 
 h3 {
@@ -35,23 +41,29 @@ h3 {
     font-size: 24px;
     margin: 18px;
     color:#444;
+    padding: 5px;
 }
 
 h4 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    margin: 14px;
+    margin-top: 14px;
+    margin-bottom: 2px;
     color:#444;
     font-weight: bold;
+    padding: 5px;
 }
+
 body {
     line-height: 1.6;
     font-family: 'Roboto',arial,sans-serif;
     margin:20px;
 }
+
 #menu {
     text-align: center;
 }
+
 .menu-title {
     width: 800px;
     margin: 0 auto;
@@ -60,13 +72,14 @@ body {
     background-color: #444;
     color: white;
 }
+
 #menu p {
     font-family: 'Courier New', Courier, monospace;
     font-size: 16px;
-    margin-top: 10px;
+    margin-top: 10px; /* why i dont see any change if I put small px (smaller than 10px)  here? */
     color:rgb(79, 76, 76);
-   
 }
+
 .Dev-Fav {
     width: 800px;
     margin: 0 auto;
