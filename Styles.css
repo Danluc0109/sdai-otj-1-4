@@ -4,6 +4,10 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    line-height: 1.6;
+    font-family: 'Roboto',sans-serif;
+}
 /* Design header with H1 placed on top of header image */
 .header {
     position: relative;
@@ -52,50 +56,47 @@
     font-family: "Inter", sans-serif;
     padding: 10px;
 }
-
+/* Style for Main */
 h2 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 30px;
     margin: 12px;
     color:#444;
-    padding: 5px;
 }
 
 h3 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 24px;
-    margin: 18px;
     color:#444;
-    padding: 5px;
+    margin-top: 20px;
 }
 
 h4 {
     font-family: 'Courier New', Courier, monospace;
     font-size: 18px;
-    margin-top: 14px;
-    margin-bottom: 2px;
     color:#444;
     font-weight: bold;
-    padding: 5px;
-}
-
-body {
-    line-height: 1.6;
-    font-family: 'Roboto',sans-serif;
-    
 }
 
 #menu {
+
     text-align: center;
+    width: 100%;
 }
 
-.menu-title {
-    width: 800px;
+#menu h2 {
+
+    width: 80%;
     margin: 0 auto;
     margin-top: 20px;
     text-align: center;
     background-color: #444;
     color: white;
+    font-size: 1.5rem;
+}
+.menu-item {
+    width:60%;
+    margin: 0 auto;
 }
 
 #menu p {
@@ -103,15 +104,7 @@ body {
     font-size: 16px;
     margin-top: 10px; /* why i dont see any change if I put small px (smaller than 10px)  here? */
     color:rgb(79, 76, 76);
-}
-
-.Dev-Fav {
-    width: 800px;
-    margin: 0 auto;
-    margin-top: 20px;
-    text-align: center;
-    background-color: #444;
-    color: white;
+    max-width: 100%;
 }
 
 #about {
@@ -124,7 +117,6 @@ body {
 .About-images {
     display: flex; 
     justify-content: space-around;
-    justify-content: center;
     flex-wrap: wrap;
     padding: 20px;
     margin-top: 20px;
@@ -145,13 +137,13 @@ body {
 }
 .Favorites-images {
     display: flex; 
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
+    margin-top: 20px;
  }
 .Favorites-images img {
     width: 30%;
     height: auto;
     max-width: 100%;
     object-fit: cover;
-
 }
